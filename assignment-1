@@ -1,0 +1,16 @@
+s={1:[101,'ram','m','mpcs','pass'],4:[104,'sita','f','mecs','pass'],6:[106,'siva','m','mscs','fail'],8:[108,'veda','f','mccs','fail']}
+x=int(input('enter student sno:'))
+print('student sno:',s[x][0])
+print('student name:',s[x][1])
+print('student gender:',s[x][2])
+print('student group:',s[x][3])
+print('student result:',s[x][4])
+
+
+    OUTPUT:
+enter student sno:1
+student sno: 101
+student name: ram
+student gender: m
+student group: mpcs
+student result: pass
